@@ -10,7 +10,9 @@ Prerecrisets
 2) Install arch linux inside termux 
 
 pkg install wget
+
 wget https://raw.githubusercontent.com/sdrausty/TermuxArch/master/setupTermuxArch.sh
+
 bash setupTermuxArch.sh
 
 3) Enter arching chroot
