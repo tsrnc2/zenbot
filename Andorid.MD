@@ -9,7 +9,7 @@ Prerecrisets
 
 2) Install arch linux inside termux 
 
-pkg install wget 
+pkg install wget
 wget https://raw.githubusercontent.com/sdrausty/TermuxArch/master/setupTermuxArch.sh
 bash setupTermuxArch.sh
 
