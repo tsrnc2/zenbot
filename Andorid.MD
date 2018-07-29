@@ -4,6 +4,7 @@ Prerecrisets
 -You will need a armv6 or armv7 device. Don't know what you have https://www.quora.com/How-do-I-know-if-an-Android-device-is-running-on-ARMv7-or-ARMv6. 
 -Internet access to the device and access to the google play store. It is possible to perform installation off-line but I won’t go into that here.
 -Root (optional) for optimizing your device. Not necessary
+-You will need background data turned on and battery saver turn off
 
 1) Start by installing Termux from the play store, and start it up. On first startup it will download and install a base gnu OS and chroot into it. On some systems Termux will start with limited permissions, in that case enter su 
 
