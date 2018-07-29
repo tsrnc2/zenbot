@@ -15,11 +15,11 @@ wget https://raw.githubusercontent.com/sdrausty/TermuxArch/master/setupTermuxArc
 
 bash setupTermuxArch.sh
 
-3) Enter arching chroot
+3) Enter archlinux chroot
 
 startarch
 
-4) Install depend ices
+4) Install dependices
  
  pacman -Sy nodejs-lts-carbon python2 base-devel npm
  ln -s /usr/bin/python2 /usr/bin/python
@@ -27,7 +27,7 @@ startarch
 5) Download zenbot and configure
 
 git clone https://github.com/deviavir/zenbot.git
-cd zen bot
+cd zenbot
 cp conf-sample.js conf.js
 nano conf.js
 npm install
