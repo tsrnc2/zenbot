@@ -22,22 +22,31 @@ startarch
 4) Install dependices
  
  pacman -Sy nodejs-lts-carbon python2 base-devel npm
+ 
  ln -s /usr/bin/python2 /usr/bin/python
 
 5) Download zenbot and configure
 
 git clone https://github.com/deviavir/zenbot.git
+
 cd zenbot
+
 cp conf-sample.js conf.js
+
 nano conf.js
+
 npm install
 
 6) install mongodb
 you have 2 options 
  Option 1) archlinux mongodb. In a new termux session(scroll from left side of screen)
+ 
  pacman -S mongodb 
+ 
  lunch with the command
+ 
  mongod 
+ 
  Option 2) native android mongodb with "dory mongodb" in play store
 
 7) After you have mongodb running start zenbot with
@@ -50,7 +59,9 @@ close all termux sessions
 from a fresh termux session
 
  startarch
+ 
  cd zenbot
+ 
  bash zenbot.sh
 
 
@@ -62,6 +73,7 @@ being your no file SOFT and HARD no file limits 10000 works nicely on a pixel2 y
 enter this as root, a warning asking for root permissions may appear, grant them.
 
 su
+
 pr limit ${PID} 7 SOFT HARD 
 
  Inside your termux arch chroot you will need to edit the file /etc/security/limits.conf and adjust your no file to match.
