@@ -10,6 +10,7 @@ prerequisites
 -Root (optional) for optimizing your device. Not necessary
 
 1) Start by installing Termux from the play store, and start it up. On first startup it will download and install a base gnu OS and chroot into it. On some systems Termux will start with limited permissions, in that case enter 
+
 $ su 
 
 2) Install arch linux inside termux 
