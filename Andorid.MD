@@ -26,7 +26,7 @@ $ startarch
 
 4) Install dependices
  
-$ pacman -Sy nodejs-lts-carbon python2 base-devel npm
+$ pacman -Sy nodejs-lts-carbon python2 base-devel npm git
  
 $ ln -s /usr/bin/python2 /usr/bin/python
 
