@@ -1,7 +1,7 @@
 ## Android
 
 prerequisites
--You will need a armv6 or armv7 device. Don't know what you have https://www.quora.com/How-do-I-know-if-an-Android-device-is-running-on-ARMv7-or-ARMv6. 
+-You will need a armv6 or newer device. Don't know what you have https://www.quora.com/How-do-I-know-if-an-Android-device-is-running-on-ARMv7-or-ARMv6. 
 
 -Internet access to the device and access to the google play store. It is possible to perform installation off-line but I won’t go into that here.
 
